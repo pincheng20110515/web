@@ -23,6 +23,7 @@
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
+                margin-top: 70px;
             }
             img{
                 margin-bottom: 30px;
@@ -55,19 +56,45 @@
                 text-decoration: none;
                 margin-left: auto;
                 margin-right: auto;
-                padding: 15px 40px;
-                border: 5px solid #043905;
-                color:#025103
+            }
+            .buy{
+                position: absolute;
+                top: 20px;
+                left: 250px;
+                padding: 20px 50px;
+                background-color: #dc980fa3;
+                color:#da0804;
+            }
+            .my{
+                padding: 20px 50px;
+                position: absolute;
+                top: 20px;
+                right: 40px;
+                background-color: #2a3907;
+                color:#79a330
             }
             a:hover{
                 transform: scale(1.05)
             }
+            .menutitle{
+                position: absolute;
+                top: 20px;
+                left: 30px;
+                padding: 20px 40px;
+                background-color: #f8f8f8a3;
+                color:#0b0000;
+            }
+            .menu{
+                position: fixed;
+            }
+            
             iframe{
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
                 border: 5px solid grey;
                 width:90%;
+                margin-top: 10px;
                 aspect-ratio: 16 / 9
             }
         </style>
@@ -77,9 +104,12 @@
     <body>
         <h1>你好，我是安安007</h1>
         <p>视觉中国插画师！插画设计！PPT设计！海报设计！Ps、Ai、procreate、nomad建模、网站建立。</p>
-        <a href="https://www.xiaohongshu.com/user/profile/59d60ceede5fb40bc34b62cc?xsec_token=YBNGYMGtQP67p7xfOTSEhIL9ND72yy41B94XpY-qdowiQ%3D&xsec_source=app_share&xhsshare=&shareRedId=Nz9GNjNISU5KTDpISzwwSEk2PUk6N0lM&apptime=1776000371&share_id=9e24a43bf01748a6be0871b7ba75fee0&share_channel=copy_link">点击跳转我的小红书主页</a>
+        <a class="menu menutitle">导航栏</a>
+        <a href="https://www.xiaohongshu.com/user/profile/59d60ceede5fb40bc34b62cc?xsec_token=YBNGYMGtQP67p7xfOTSEhIL9ND72yy41B94XpY-qdowiQ%3D&xsec_source=app_share&xhsshare=&shareRedId=Nz9GNjNISU5KTDpISzwwSEk2PUk6N0lM&apptime=1776000371&share_id=9e24a43bf01748a6be0871b7ba75fee0&share_channel=copy_link" class="my menu">点击跳转我的小红书主页</a>
+        <a href="https://detail.tmall.com/item.htm?abbucket=20&id=693289272295&mi_id=0000EnUarqO5E6x7CA03bZ7PdiB8ddZPDj7MWK4CTKF583M&ns=1&priceTId=21016c1a17760843791441813e0d2a&spm=a21n57.1.hoverItem.7&utparam=%7B%22aplus_abtest%22%3A%224e43a90643aac2cac1072ab58c97801e%22%7D&xxc=taobaoSearch" class="buy menu">立刻下单</a>
+        <iframe src="https://player.bilibili.com/player.html?bvid=BV19JQZBjE8W&p=1" allowfullscreen></iframe>
         <p>我的作品集</p>
-        <img src="https://image.freepik.com/free-vector/business-logo-design-template_18099-1132.jpg" alt="logo" class="logo">
+        <!-- <img src="https://image.freepik.com/free-vector/business-logo-design-template_18099-1132.jpg" alt="logo" class="logo"> -->
         <img src="https://raw.githubusercontent.com/pincheng20110515/web/main/013afc4cff0dc00a2fa783ec88db5123.jpg" alt="画" class="art">
 
         <img src="https://raw.githubusercontent.com/pincheng20110515/web/main/077b9da976cc69b7db8b107ac2e6147e.jpg" alt="画" class="art">
@@ -103,6 +133,5 @@
         <img src="https://raw.githubusercontent.com/pincheng20110515/web/main/a52186bb968815b11578a66d5fe5fa06.jpg" alt="画" class="art">
 
         <img src="https://raw.githubusercontent.com/pincheng20110515/web/main/efb653d438980fcb4e5a48c7241bd3f2.jpg" alt="画" class="art">
-        <iframe src="https://player.bilibili.com/player.html?bvid=BV19JQZBjE8W&p=1" allowfullscreen></iframe>
     </body>
 </html>
